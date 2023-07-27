@@ -1,11 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruits</title>
+            <!-- DaisyUi Script -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+           <!-- Tailwind Script  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+            <!-- Tailwind color support -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+              <!-- font lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        .font-lato{
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
 </head>
-<body>
-    
+
+<body class="font-lato">
+    <header class="container mx-auto">
+                        <!-- Nav bar -->
+        <nav class="flex justify-between bg-[#F85559] text-white rounded-full py-2 mt-16 ">
+            <div class="flex items-center gap-10 ml-16">
+                <div>
+                    <p>Home</p>
+                </div>
+                <div>
+                    <p>About Us</p>
+                </div>
+                <div>
+                    <p>Shop</p>
+                </div>
+                <div>
+                    <p>All Fruits</p>
+                </div>
+
+
+            </div>
+            <div class="flex items-center">
+                <img class="w-8" src="images/logo.png" alt="">
+                <h3 class="text-2xl ml-2 font-bold">Fruit Burst</h3>
+            </div>
+            <div>
+                <div class="relative mr-16 ">
+                    <input type="text" placeholder="Search here"
+                        class="input input-bordered w-full pr-16 rounded-3xl" />
+
+                </div>
+            </div>
+        </nav>
+                        <!-- Banner with Carousel -->
+
+    </header>
+
+
+
+    <main>
+
+    </main>
+
+
+
+    <footer>
+
+    </footer>
+
 </body>
+
 </html>
